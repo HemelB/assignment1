@@ -1,0 +1,122 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.section-one{
+    display: flex;
+    height:390px;
+}
+.headline{
+    margin-left: 80px;
+}
+.section-one img{
+    width: 38%;
+    margin-left: 130px;
+}
+span{
+    color: yellowgreen;
+}
+h1{
+    border-left: 4px solid yellowgreen;
+    font-family: 'Yeseva One', cursive;
+    padding-left: 8px;
+    font-size: 40px;
+}
+.button{
+    text-decoration: none;
+    background-color: greenyellow;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.section-two-title{
+    text-align: center;
+}
+.section-two-parts{
+    display: flex;
+    margin: 0px 80px;
+}
+.section-two-parts img{
+    width: 50%;
+}
+.part-one{
+    border-radius: 10px;
+    margin: 8px;
+    padding: 3px 10px;
+    background-color: rgb(219, 245, 236);
+    flex-basis: 100%;
+}
+.part-two{
+    border-radius: 10px;
+    margin: 8px;
+    padding: 3px 10px;
+    background-color: rgb(235, 245, 177);
+    flex-basis: 100%;
+
+}
+.part-three{
+    border-radius: 10px;
+    margin: 8px;
+    padding: 3px 10px;
+    background-color: rgb(178, 241, 162);
+    flex-basis: 100%;
+
+}
+
+.section-three{
+    height: 360px;
+    display: flex;
+    margin: 50px 80px;    
+}
+.section-three img{
+    width: 100%;
+}
+.section-three-img{
+    flex: 1 1 30%;
+    
+}
+.section-three-content{
+    flex: 1 1 70%;
+    padding-left: 20px;
+}
+.section-four{
+    height: 360px;
+    display: flex;
+    margin: 50px 80px;    
+}
+.section-four img{
+    width: 100%;
+}
+.section-four-img{
+    flex: 1 1 30%;   
+}
+.section-four-content{
+    flex: 1 1 70%;
+    padding-right: 20px;
+}
+.section-five h2{
+text-align: center;
+}
+.skill-set{
+    display: flex;
+    margin: 20px 20px;
+    text-align: center;
+}
+.skill{
+    background-color: greenyellow;
+    margin: 30px;
+    padding: 20px;
+    flex-basis: 100%;
+    border-radius: 50px;    
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;  
+    height: 100px;
+    padding: 8px 0px;
+    font-weight: 400;
+}
